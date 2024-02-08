@@ -186,7 +186,7 @@
   if (preloader) {
     setTimeout(() => {
       preloader.remove()
-    }, 4000);
+    }, 3000);
 
     window.addEventListener('load', () => {
     });

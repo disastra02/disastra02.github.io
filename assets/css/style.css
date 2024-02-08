@@ -1773,8 +1773,8 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #ecf6fe;
-  margin-top: 130px;
+  background: rgba(250, 250, 250, 0.85);
+  margin-top: 70px;
 }
 
 .breadcrumbs h2 {
