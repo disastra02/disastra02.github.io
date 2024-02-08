@@ -62,6 +62,10 @@ h6 {
   border: 1px solid #F5F5F5 !important;
 }
 
+.w-90 {
+  width: 90%;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -548,7 +552,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.45);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -570,7 +574,7 @@ h6 {
 
 #hero h2 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 48px;
   font-weight: 700;
 }
@@ -1118,19 +1122,22 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(0, 0, 0, 0.85)), url("../img/cta-bg.jpg") fixed center center;
+  /* background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(0, 0, 0, 0.85)), url("../img/cta-bg.jpg") fixed center center; */
+  background: #FFFFFF;
   background-size: cover;
-  padding: 120px 0;
+  padding: 90px 0;
 }
 
 .cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+  color: #054a85;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .cta p {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .cta .cta-btn {
@@ -1146,11 +1153,12 @@ section {
   margin: 10px;
   border-radius: 50px;
   border: 2px solid #FF5722;
-  color: #fff;
+  color: #FF5722;
 }
 
 .cta .cta-btn:hover {
   background: #FF5722;
+  color: #FFF;
 }
 
 @media (max-width: 1024px) {
