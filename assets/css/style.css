@@ -538,7 +538,7 @@ h6 {
   height: 85vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/bg-hero.png") top center;
+  background: url("../img/bg-hero.png") center center;
   background-size: cover;
   position: relative;
   /* margin-bottom: -90px; */
@@ -548,7 +548,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.35);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1210,7 +1210,7 @@ section {
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .portfoio .portfolio-item .portfolio-info {
